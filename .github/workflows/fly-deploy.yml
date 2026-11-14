@@ -1,6 +1,6 @@
 concurrency:
   group: fly-deploy
-  cancel-i-progress: false
+  cancel-in-progress: false
 
 jobs:
   deploy:
