@@ -1,3 +1,13 @@
+name: Fly Deploy
+
+"on":
+  push:
+    branches:
+      - main 
+  workflow_dispatch:
+
+
+
 concurrency:
   group: fly-deploy
   cancel-in-progress: false
